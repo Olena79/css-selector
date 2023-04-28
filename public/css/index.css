@@ -3,7 +3,7 @@ div.lesson-four-task-one button:hover {
     background:yellow;
 }
 
-div.lesson-four-task-two a:hover {
+div.lesson-four-task-two a:hover ~ h1 {
     background:green;
 }
 
@@ -28,7 +28,6 @@ div.lesson-four-task-six .btn:focus {
     background:green;
 }
 
-/* Завдання 8 - не працює */
 div.lesson-four-task-eight #checkbox:checked ~ #target {
     color: white;
     background:blue;
